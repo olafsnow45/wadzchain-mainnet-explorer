@@ -9,28 +9,13 @@ defmodule BlockScoutWeb.LayoutView do
 
   @default_other_networks [
     %{
-      title: "POA",
-      url: "https://blockscout.com/poa/core"
+      title: " Mainnet",
+      url: "https://scan.wadzchain.io/",
     },
     %{
-      title: "Sokol",
-      url: "https://blockscout.com/poa/sokol",
-      test_net?: true
+      title: " Testnet",
+      url: "https://scan-testnet.wadzchain.io/",
     },
-    %{
-      title: "Gnosis Chain",
-      url: "https://blockscout.com/xdai/mainnet"
-    },
-    %{
-      title: "Ethereum Classic",
-      url: "https://blockscout.com/etc/mainnet",
-      other?: true
-    },
-    %{
-      title: "RSK",
-      url: "https://blockscout.com/rsk/mainnet",
-      other?: true
-    }
   ]
 
   alias BlockScoutWeb.SocialMedia

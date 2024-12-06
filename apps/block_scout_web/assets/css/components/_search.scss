@@ -1,4 +1,4 @@
-$main-search-autocomplete-background-color: #f5f6fa !default;
+$main-search-autocomplete-background-color: #000 !default;
 
 .mobile-search-show {
     @media screen and (max-width: 992px) {
@@ -71,4 +71,14 @@ ul[id^='autoComplete_list_'] {
 li[id^='autoComplete_result_'] {
     font-size: 12px !important;
     border-radius: 0 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #828ba0;
+    background: black;
+    transition: background-color 5000s ease-in-out 0s;
 }
