@@ -15,6 +15,7 @@ defmodule BlockScoutWeb.LayoutView do
     %{
       title: " Testnet",
       url: "https://scan-testnet.wadzchain.io/",
+      test_net?: true
     },
   ]
 
