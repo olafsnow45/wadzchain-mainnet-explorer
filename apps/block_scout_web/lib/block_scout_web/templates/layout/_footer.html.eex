@@ -1,22 +1,9 @@
 <footer class="footer">
   <div class="footer-body container">
-    <!-- Logo -->
-    <div class="row footer-logo-row">
-      <div class="col-md-12">
-        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
-          <%= if logo_footer() do %>
-            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 77px; height: 77px;" />
-          <% end %>
-        <% end %>
-      </div>
-    </div>
-
-    <% other_explorers = other_explorers() %>
-    <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
-
     <div class="row">
 
-      <div>
+      <!-- Logo -->
+      <div style="margin-right: 24px;">
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
           <%= if logo_footer() do %>
             <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 77px; height: 77px;" />
@@ -24,7 +11,7 @@
         <% end %>
       </div>
 
-      <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+      <div class="row" style="display: flex; justify-content: space-between; align-items: center; flex-grow: 1;">
         <div style="max-width: 317px;">
           <p style="color: white; font-family: Montserrat; font-size: 16px; font-weight: 600;"><%= gettext("WadzChain Network") %></p>
           <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400;"><%= gettext("WadzChain is one of the first hybrid blockchain purpose-built for global payments. Blending the strengths of public and private chains, it offers unmatched scalability, speed, and security. Designed to handle thousands of transactions while simplifying complex business requirements, WadzChain ensures that every transaction is fast, secure, and efficient.") %></p>
