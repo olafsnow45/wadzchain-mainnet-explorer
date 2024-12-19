@@ -13,8 +13,8 @@
 
       <div class="row" style="display: flex; justify-content: space-between; align-items: center; flex-grow: 1;">
         <div style="max-width: 317px;">
-          <p style="color: white; font-family: Montserrat; font-size: 16px; font-weight: 600;"><%= gettext("WadzChain Network") %></p>
-          <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400;"><%= gettext("WadzChain is one of the first hybrid blockchain purpose-built for global payments. Blending the strengths of public and private chains, it offers unmatched scalability, speed, and security. Designed to handle thousands of transactions while simplifying complex business requirements, WadzChain ensures that every transaction is fast, secure, and efficient.") %></p>
+          <p style="color: white; font-family: Montserrat; font-size: 16px; font-weight: 600; line-height: 19px; "><%= gettext("WadzChain Network") %></p>
+          <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12px;"><%= gettext("WadzChain is one of the first hybrid blockchain purpose-built for global payments. Blending the strengths of public and private chains, it offers unmatched scalability, speed, and security. Designed to handle thousands of transactions while simplifying complex business requirements, WadzChain ensures that every transaction is fast, secure, and efficient.") %></p>
         </div>
 
         <div class="footer-social-icons" style="max-width: 218px; display: flex; justify-content: space-between;">
