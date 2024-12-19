@@ -256,10 +256,10 @@ $header-logo-text-color: #333 !default;
 
 .logo-text {
   color: $header-logo-text-color;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   margin-left: 5px;
-  line-height: 28px;
+  line-height: 29px;
 
   &.in-footer {
     color: #fff;
