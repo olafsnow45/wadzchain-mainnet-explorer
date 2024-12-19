@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
           <%= if logo_footer() do %>
-            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 250px; height: 30px;" />
+            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 77px; height: 77px;" />
           <% end %>
         <% end %>
       </div>
@@ -15,57 +15,34 @@
     <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
 
     <div class="row">
-      <div class="col-xs-12 col-lg-3">
-        <p class="footer-info-text"><%= gettext("WadzChain Explorer") %></p>
-        <div class="footer-social-icons">
+
+      <div>
+        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
+          <%= if logo_footer() do %>
+            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 77px; height: 77px;" />
+          <% end %>
+        <% end %>
+      </div>
+
+      <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="max-width: 317px;">
+          <p style="color: white; font-family: Montserrat; font-size: 16px; font-weight: 600;"><%= gettext("WadzChain Network") %></p>
+          <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400;"><%= gettext("WadzChain is one of the first hybrid blockchain purpose-built for global payments. Blending the strengths of public and private chains, it offers unmatched scalability, speed, and security. Designed to handle thousands of transactions while simplifying complex business requirements, WadzChain ensures that every transaction is fast, secure, and efficient.") %></p>
+        </div>
+
+        <div class="footer-social-icons" style="max-width: 218px; display: flex; justify-content: space-between;">
           <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
             <div class="footer-social-icon-container fontawesome-icon telegram"></div>
-          </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Linkedin") %>'>
-            <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
           </a>
           <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
           </a>
+          <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Linkedin") %>'>
+            <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
+          </a>
         </div>
       </div>
 
-      <% main_nets = main_nets(other_networks()) %>
-
-      <%= unless Enum.empty?(main_nets) do %>
-        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-          <h3><%= gettext("Main Networks") %></h3>
-          <ul>
-            <%= for %{title: title, url: url} <- main_nets do %>
-              <li><a href="<%= url %>" rel="noreferrer" class="footer-link"> <%= title %> </a></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
-
-      <% test_nets = test_nets(other_networks()) %>
-
-      <%= unless Enum.empty?(test_nets) do %>
-        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-          <h3><%= gettext("Test Networks") %></h3>
-          <ul>
-            <%= for %{title: title, url: url} <- test_nets do %>
-              <li><a href="<%= url %>" rel="noreferrer" class="footer-link"> <%= title %> </a></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
-
-      <%= unless Enum.empty?(other_explorers) do %>
-        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-          <h3><%= gettext("Other Explorers") %></h3>
-          <ul>
-            <%= for {name, url} <- other_explorers do %>
-              <li><a href="<%= url %>" rel="noreferrer" class="footer-link"> <%= name %> </a></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
     </div>
 
   </div>
