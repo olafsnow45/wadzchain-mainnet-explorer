@@ -1,11 +1,4 @@
-<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_184_166)">
-<path d="M19 0C8.50695 0 0 8.50695 0 19C0 29.493 8.50695 38 19 38C29.493 38 38 29.493 38 19C38 8.50695 29.493 0 19 0Z" fill="white"/>
-<path d="M21.0786 17.2806L29.2123 7.82584H27.2849L20.2224 16.0353L14.5816 7.82584H8.07568L16.6056 20.2399L8.07568 30.1547H10.0032L17.4614 21.4852L23.4184 30.1547H29.9244L21.0781 17.2806H21.0786ZM10.6977 9.27687H13.6583L27.2857 28.7696H24.3252L10.6977 9.27687Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0_184_166">
-<rect width="38" height="38" fill="white"/>
-</clipPath>
-</defs>
+<svg enable-background="new 0 0 512 512" height="1792" viewBox="0 0 1226.37 1226.37" width="1792" xmlns="http://www.w3.org/2000/svg">
+  <path d="m727.348 519.284 446.727-519.284h-105.86l-387.893 450.887-309.809-450.887h-357.328l468.492 681.821-468.492 544.549h105.866l409.625-476.152 327.181 476.152h357.328l-485.863-707.086zm-144.998 168.544-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721h-162.604l-323.311-462.446z" fill="#fff"/>
+  <!-- Créé par Thomas Cabrit, Kcalb Ltd , https://github.com/Thomaskcalb, https://github.com/Official-Kcalb-ltd, https://kcalb.org -->
 </svg>
