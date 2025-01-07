@@ -10,11 +10,11 @@ defmodule BlockScoutWeb.LayoutView do
   @default_other_networks [
     %{
       title: " Mainnet",
-      url: "https://scan.wadzchain.io/",
+      url: "https://scan.w-chain.com/",
     },
     %{
       title: " Testnet",
-      url: "https://scan-testnet.wadzchain.io/",
+      url: "https://scan-testnet.w-chain.com/",
       test_net?: true
     },
   ]

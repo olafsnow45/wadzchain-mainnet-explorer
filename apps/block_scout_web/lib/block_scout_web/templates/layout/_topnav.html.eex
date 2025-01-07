@@ -109,12 +109,12 @@
               <%= link(
                     gettext("RPC"),
                     class: "dropdown-item #{tab_status("api-docs", @conn.request_path)}",
-                    to: "https://scan.wadzchain.io/api-docs"
+                    to: "https://scan.w-chain.com/api-docs"
                   ) %>
               <%= link(
                     gettext("Eth RPC"),
                     class: "dropdown-item #{tab_status("eth-rpc-api-docs", @conn.request_path)}",
-                    to: "https://scan.wadzchain.io/eth-rpc-api-docs"
+                    to: "https://scan.w-chain.com/eth-rpc-api-docs"
                   ) %>
             </div>
           </li>

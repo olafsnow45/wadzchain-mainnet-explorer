@@ -1,7 +1,7 @@
 <h1 align="center">Wadzchain Mainnet Explorer</h1>
 <p align="center">Blockchain Explorer for inspecting and analyzing WadzChain Mainnet.</p>
 
-Website: [https://scan.wadzchain.io/](https://scan.wadzchain.io/)
+Website: [https://scan.w-chain.com/](https://scan.w-chain.com/)
 
 Wadzchain explorer provides a comprehensive, easy-to-use interface for users to view, confirm, and inspect transactions on WadzChain Mainnet ( EVM ) blockchains.
 
