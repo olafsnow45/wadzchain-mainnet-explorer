@@ -1,8 +1,9 @@
 <div class="col-lg-3 fade-up-blocks-chain" data-selector="chain-block" data-block-number="<%= @block.number %>">
-  <div class="tile tile-type-block n-p d-flex flex-column">
+  <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important; opacity: 1 !important;">
     <%= link(
           @block,
           class: "tile-title",
+          style: "color: white;",
           to: block_path(BlockScoutWeb.Endpoint, :show, @block),
           "data-selector": "block-number"
         ) %>
