@@ -1,6 +1,6 @@
-<div data-loading-message data-selector="loading-message" class="tile tile-type-loading">
+<div data-loading-message data-selector="loading-message" class="tile tile-type-loading" style="background: white;">
   <div class="row tile-body">
-    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column">
+    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column" style="border-top: 0px solid white; border-bottom: 0px solid white;">
       <span class="tile-label">
         <span class="tile-loader tile-label-loader"></span>
       </span>
@@ -22,9 +22,9 @@
     </div>
   </div>
 </div>
-<div data-loading-message data-selector="loading-message" class="tile tile-type-loading">
+<div data-loading-message data-selector="loading-message" class="tile tile-type-loading" style="background: white;">
   <div class="row tile-body">
-    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column">
+    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column" style="border-top: 0px solid white; border-bottom: 0px solid white;">
       <span class="tile-label">
         <span class="tile-loader tile-label-loader"></span>
       </span>
@@ -46,9 +46,9 @@
     </div>
   </div>
 </div>
-<div data-loading-message data-selector="loading-message" class="tile tile-type-loading">
+<div data-loading-message data-selector="loading-message" class="tile tile-type-loading" style="background: white;">
   <div class="row tile-body">
-    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column">
+    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column" style="border-top: 0px solid white; border-bottom: 0px solid white;">
       <span class="tile-label">
         <span class="tile-loader tile-label-loader"></span>
       </span>
@@ -70,9 +70,9 @@
     </div>
   </div>
 </div>
-<div data-loading-message data-selector="loading-message" class="tile tile-type-loading">
+<div data-loading-message data-selector="loading-message" class="tile tile-type-loading" style="background: white;">
   <div class="row tile-body">
-    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column">
+    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column" style="border-top: 0px solid white; border-bottom: 0px solid white;">
       <span class="tile-label">
         <span class="tile-loader tile-label-loader"></span>
       </span>
@@ -94,9 +94,9 @@
     </div>
   </div>
 </div>
-<div data-loading-message data-selector="loading-message" class="tile tile-type-loading">
+<div data-loading-message data-selector="loading-message" class="tile tile-type-loading" style="background: white;">
   <div class="row tile-body">
-    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column">
+    <div class="tile-transaction-type-block col-md-2 d-flex flex-row flex-md-column" style="border-top: 0px solid white; border-bottom: 0px solid white;">
       <span class="tile-label">
         <span class="tile-loader tile-label-loader"></span>
       </span>
