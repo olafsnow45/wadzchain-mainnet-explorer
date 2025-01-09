@@ -10,20 +10,16 @@
       -webkit-mask-size: 38px !important;
     }
     &.twitter {
-      -webkit-mask: url(../static/images/icons/fontawesome/twitter.png) no-repeat center;
-      mask: url(../static/images/icons/fontawesome/twitter.png) no-repeat center;
+      background-image: url("../static/images/icons/fontawesome/twitter.png");
+      background-color: #FFFFFF;
       height: 43px;
       width: 43px;
-      mask-size: 43px !important;
-      -webkit-mask-size: 43px !important;
     }
     &.telegram {
-      -webkit-mask: url(../static/images/icons/fontawesome/telegram.png) no-repeat center;
-      mask: url(../static/images/icons/fontawesome/telegram.png) no-repeat center;
+      background-image: url("../static/images/icons/fontawesome/telegram.png");
+      background-color: #FFFFFF;
       height: 43px;
       width: 43px;
-      mask-size: 43px !important;
-      -webkit-mask-size: 43px !important;
     }
     &.facebook {
       -webkit-mask: url(../static/images/icons/fontawesome/facebook.svg) no-repeat center;
@@ -34,15 +30,14 @@
       -webkit-mask-size: 43px !important;
     }
     &.linkedin {
-      -webkit-mask: url(../static/images/icons/fontawesome/linkedin.png) no-repeat center;
-      mask: url(../static/images/icons/fontawesome/linkedin.png) no-repeat center;
+      background-image: url("../static/images/icons/fontawesome/linkedin.png");
+      background-color: #FFFFFF;
       height: 43px;
       width: 43px;
-      mask-size: 43px !important;
-      -webkit-mask-size: 43px !important;
     }
     &.discord {
       background-image: url("../static/images/icons/fontawesome/discord.png");
+      background-color: #FFFFFF;
       height: 43px;
       width: 43px;
     }
