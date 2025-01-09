@@ -6,7 +6,7 @@
       <div style="margin-right: 24px;">
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
           <%= if logo_footer() do %>
-            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 159px; height: 159px;" />
+            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 78px; height: 45px;" />
           <% end %>
         <% end %>
       </div>
