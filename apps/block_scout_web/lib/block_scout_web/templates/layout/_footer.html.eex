@@ -1,5 +1,5 @@
-<footer class="footer">
-  <div class="footer-body container">
+<footer class="footer" style="background: white !important;">
+  <div class="footer-body container" style="align-items: center;">
     <div class="row">
 
       <!-- Logo -->
@@ -12,21 +12,21 @@
       </div>
 
       <div class="row" style="display: flex; justify-content: space-between; align-items: center; flex-grow: 1;">
-        <div style="max-width: 317px;">
+        <div style="max-width: 317px; margin-left: 30px;">
           <p style="color: black; font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12px; margin-top: -12px;"><%= gettext("W Chain stands out as a pioneering hybrid blockchain designed specifically for seamless global payments. Combining the best of both worlds, it delivers exceptional scalability, speed, and security. Built to manage a high volume of transactions effortlessly, W Chain guarantees that each transaction is fast, secure, and efficient.") %></p>
         </div>
 
         <div class="footer-social-icons" style="max-width: 218px; display: flex; justify-content: space-between;">
-          <a href="#" rel="noreferrer" class="footer-social-icon">
+          <a href="https://discord.com/invite/MKwECfek45" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon discord"></div>
           </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon">
+          <a href="https://x.com/official_wchain" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
           </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon">
+          <a href="https://t.me/WadzChain_Ntwk" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon telegram"></div>
           </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon">
+          <a href="https://www.linkedin.com/company/wchain/" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
           </a>
         </div>
