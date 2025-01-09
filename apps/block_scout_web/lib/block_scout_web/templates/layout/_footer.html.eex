@@ -6,25 +6,27 @@
       <div style="margin-right: 24px;">
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
           <%= if logo_footer() do %>
-            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 77px; height: 77px;" />
+            <img src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" style="width: 159px; height: 159px;" />
           <% end %>
         <% end %>
       </div>
 
       <div class="row" style="display: flex; justify-content: space-between; align-items: center; flex-grow: 1;">
         <div style="max-width: 317px;">
-          <p style="color: white; font-family: Montserrat; font-size: 16px; font-weight: 600; line-height: 19px; "><%= gettext("WadzChain Network") %></p>
-          <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12px; margin-top: -12px;"><%= gettext("WadzChain is one of the first hybrid blockchain purpose-built for global payments. Blending the strengths of public and private chains, it offers unmatched scalability, speed, and security. Designed to handle thousands of transactions while simplifying complex business requirements, WadzChain ensures that every transaction is fast, secure, and efficient.") %></p>
+          <p style="color: white; font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12px; margin-top: -12px;"><%= gettext("W Chain stands out as a pioneering hybrid blockchain designed specifically for seamless global payments. Combining the best of both worlds, it delivers exceptional scalability, speed, and security. Built to manage a high volume of transactions effortlessly, W Chain guarantees that each transaction is fast, secure, and efficient.") %></p>
         </div>
 
         <div class="footer-social-icons" style="max-width: 218px; display: flex; justify-content: space-between;">
-          <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
-            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          <a href="#" rel="noreferrer" class="footer-social-icon">
+            <div class="footer-social-icon-container fontawesome-icon discord"></div>
           </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+          <a href="#" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
           </a>
-          <a href="#" rel="noreferrer" class="footer-social-icon" title='<%= gettext("Linkedin") %>'>
+          <a href="#" rel="noreferrer" class="footer-social-icon">
+            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          </a>
+          <a href="#" rel="noreferrer" class="footer-social-icon">
             <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
           </a>
         </div>
