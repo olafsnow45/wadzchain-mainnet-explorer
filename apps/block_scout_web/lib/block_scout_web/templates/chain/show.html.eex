@@ -101,7 +101,7 @@
                   <span class="dashboard-banner-network-stats-label">
                     <%= gettext "Average block time" %>
                   </span>
-                  <span class="dashboard-banner-network-stats-value" data-selector="average-block-time">
+                  <span class="dashboard-banner-network-stats-value" data-selector="average-block-time" style="color: #2784FE">
                     <%= Timex.format_duration(average_block_time, Explorer.Counters.AverageBlockTimeDurationFormat) %>
                   </span>
                 </div>
@@ -112,7 +112,7 @@
               <%= gettext "Total transactions" %>
             </span>
             <div class="d-flex">
-              <span class="dashboard-banner-network-stats-value" data-selector="transaction-count">
+              <span class="dashboard-banner-network-stats-value" data-selector="transaction-count" style="color: #2784FE">
                 <%= BlockScoutWeb.Cldr.Number.to_string!(@transaction_estimated_count, format: "#,###") %>
               </span>
               <%= if @total_gas_usage > 0 do %>
@@ -132,7 +132,7 @@
             <span class="dashboard-banner-network-stats-label">
               <%= gettext "Total blocks" %>
             </span>
-            <span class="dashboard-banner-network-stats-value" data-selector="block-count">
+            <span class="dashboard-banner-network-stats-value" data-selector="block-count" style="color: #2784FE">
               <%= BlockScoutWeb.Cldr.Number.to_string!(@block_count, format: "#,###") %>
             </span>
           </div>
@@ -140,7 +140,7 @@
             <span class="dashboard-banner-network-stats-label">
               <%= gettext "Wallet addresses" %>
             </span>
-            <span class="dashboard-banner-network-stats-value" data-selector="address-count">
+            <span class="dashboard-banner-network-stats-value" data-selector="address-count" style="color: #2784FE">
               <%= BlockScoutWeb.Cldr.Number.to_string!(@address_count, format: "#,###") %>
             </span>
           </div>
