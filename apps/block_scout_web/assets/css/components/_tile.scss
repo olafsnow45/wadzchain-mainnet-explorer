@@ -215,7 +215,6 @@ $tile-body-a-color: #5959d8 !default;
   font-size: 12px;
   line-height: 1.4rem;
   padding: $tile-padding;
-  background: #3B8FFE;
 
   @include generate-tile-block(
     ".tile-type-block",
