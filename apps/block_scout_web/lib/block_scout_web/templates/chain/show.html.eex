@@ -162,9 +162,9 @@
           </span>
         </button>
         <div hidden data-selector="loading-message" class="col-lg-3" >
-         <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
-             <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
+         <div data-selector="chain-block" style="color: white !important;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important; opacity: 1 !important;">
+             <a class="tile-title"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
                <div class="dark-block-loader"></div>
@@ -173,9 +173,9 @@
          </div>
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
-         <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
-             <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
+         <div data-selector="chain-block" style="color: white !important;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important; opacity: 1 !important;">
+             <a class="tile-title"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
                <div class="dark-block-loader"></div>
@@ -184,9 +184,9 @@
          </div>
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
-         <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
-             <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
+         <div data-selector="chain-block" style="color: white !important;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important; opacity: 1 !important;">
+             <a class="tile-title"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
                <div class="dark-block-loader"></div>
@@ -195,9 +195,9 @@
          </div>
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
-         <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
-             <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
+         <div data-selector="chain-block" style="color: white !important;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important; opacity: 1 !important;">
+             <a class="tile-title"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
               <div class="dark-block-loader"></div>
               <div class="dark-block-loader"></div>
