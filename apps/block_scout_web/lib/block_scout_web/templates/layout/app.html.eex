@@ -100,7 +100,7 @@
         <p class="alert alert-info" role="alert"><%= Map.get(@conn.private, :phoenix_flash) && get_flash(@conn, :info) %></p>
       <% end %>
       <p class="alert alert-danger" role="alert"><%= Map.get(@conn.private, :phoenix_flash) && get_flash(@conn, :error) %></p>
-      <main class="js-ad-dependant-pt pt-5" style="background-image: url('<%= static_path(@conn, "/images/background.png) %>');">
+      <main class="js-ad-dependant-pt pt-5" style='background-image: url(<%= static_path(@conn, "/images/background.png") %>);'>
         <%= @inner_content %>
       </main>
       <%= render BlockScoutWeb.LayoutView, "_footer.html", assigns %>
