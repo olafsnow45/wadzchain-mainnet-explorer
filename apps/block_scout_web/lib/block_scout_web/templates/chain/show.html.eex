@@ -150,7 +150,7 @@
   </div>
 </div>
 <section class="container">
-  <div class="card card-chain-blocks js-ad-dependant-mb-3" style="background: transparent; position: relative;">
+  <div class="card card-chain-blocks js-ad-dependant-mb-3" style="background: transparent; position: relative; box-shawdow: 0 0 0 0 !important;">
     <div style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>
     <div class="card-body">
       <%= link(gettext("View All Blocks"), to: blocks_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
@@ -163,7 +163,7 @@
         </button>
         <div hidden data-selector="loading-message" class="col-lg-3" >
          <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
              <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
@@ -174,7 +174,7 @@
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
          <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
              <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
@@ -185,7 +185,7 @@
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
          <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
              <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
                <div class="dark-block-loader"></div>
@@ -196,7 +196,7 @@
         </div>
         <div hidden data-selector="loading-message" class="col-lg-3" >
          <div data-selector="chain-block">
-           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE;">
+           <div class="tile tile-type-block n-p d-flex flex-column" style="background: #3B8FFE !important;">
              <a class="tile-title" style="color: white !important;"><span class="tile-loader tile-label-loader"></span> </a>
              <div class="tile-bottom-contents">
               <div class="dark-block-loader"></div>
