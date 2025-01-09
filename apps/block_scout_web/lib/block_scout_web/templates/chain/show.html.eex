@@ -150,7 +150,8 @@
   </div>
 </div>
 <section class="container">
-  <div class="card card-chain-blocks js-ad-dependant-mb-3">
+  <div class="card card-chain-blocks js-ad-dependant-mb-3" style="background: transparent; position: relative;">
+    <div style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>
     <div class="card-body">
       <%= link(gettext("View All Blocks"), to: blocks_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
       <h2 class="card-title"><%= gettext "Blocks" %></h2>
