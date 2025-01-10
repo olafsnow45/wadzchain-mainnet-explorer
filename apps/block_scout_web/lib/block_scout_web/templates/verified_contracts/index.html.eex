@@ -1,9 +1,11 @@
 <%= render "_stats.html", assigns %>
 <section class="container" data-page="verified-contracts-list">
   <%= render BlockScoutWeb.Advertisement.TextAdView, "index.html", conn: @conn %>
-  <div class="card">
-    <div id="verified-contracts-list" class="card-body" data-async-load data-async-listing="<%= @current_path %>" data-no-self-calls>
-      <h1 class="card-title list-title-description d-inline-block"><%= gettext "Verified Contracts" %></h1>
+  <div class="card" style="background: transparent; position: relative;">
+    <div style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>
+    <div style="position: absolute; height: 100px; left: 0px; bottom: 0px; right: 0px; background: white; border-radius: 10px;"></div>
+    <div id="verified-contracts-list" class="card-body" data-async-load data-async-listing="<%= @current_path %>" data-no-self-calls style="z-index: 1;">
+      <h1 class="card-title list-title-description d-inline-block" style="color: white;"><%= gettext "Verified Contracts" %></h1>
 
       <div class="float-right">
         <%= render BlockScoutWeb.CommonComponentsView, "_pagination_container.html", position: "top", cur_page_number: @page_number, show_pagination_limit: true, data_next_page_button: true, data_prev_page_button: true %>
