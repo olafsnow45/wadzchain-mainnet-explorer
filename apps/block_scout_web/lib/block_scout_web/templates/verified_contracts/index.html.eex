@@ -3,7 +3,7 @@
   <%= render BlockScoutWeb.Advertisement.TextAdView, "index.html", conn: @conn %>
   <div class="card" style="background: transparent; position: relative;">
     <div style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>
-    <div style="position: absolute; height: 100px; left: 0px; bottom: 0px; right: 0px; background: white; border-radius: 10px;"></div>
+    <div style="position: absolute; height: 300px; left: 0px; bottom: 0px; right: 0px; background: white; border-radius: 10px;"></div>
     <div id="verified-contracts-list" class="card-body" data-async-load data-async-listing="<%= @current_path %>" data-no-self-calls style="z-index: 1;">
       <h1 class="card-title list-title-description d-inline-block" style="color: white;"><%= gettext "Verified Contracts" %></h1>
 
@@ -53,7 +53,7 @@
         <span href="#" class="alert-link"><%= gettext("Something went wrong, click to reload.") %></span>
       </button>
 
-      <div class="addresses-table-container">
+      <div class="addresses-table-container" style="background: white;">
         <div class="stakes-table-container">
           <table>
             <thead>
