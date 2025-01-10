@@ -151,8 +151,8 @@
 </div>
 <section class="container">
   <div class="card card-chain-blocks js-ad-dependant-mb-3" style="background: transparent; position: relative; box-shawdow: 0 0 0 0 !important;">
-    <div style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>
-    <div class="card-body">
+    <div style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; background: white; opacity: 0.3; border-radius: 10px; z-index: 0;"></div>
+    <div class="card-body" style="z-index: 1;">
       <%= link(gettext("View All Blocks"), to: blocks_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
       <h2 class="card-title" style="color: white;"><%= gettext "Blocks" %></h2>
       <div class="row" data-selector="chain-block-list" data-url="<%= chain_blocks_path(@conn, :chain_blocks) %>">
@@ -212,8 +212,8 @@
   <%= render BlockScoutWeb.Advertisement.BannersAdView, "_banner_728.html", conn: @conn %>
 
   <div class="card card-chain-transactions" style="background: transparent; position: relative;">
-    <div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; background: white; opacity: 0.3; border-radius: 10px;"></div>    
-    <div class="card-body">
+    <div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; background: white; opacity: 0.3; border-radius: 10px; z-index: 0;"></div>    
+    <div class="card-body" style="z-index: 1;">
       <%= link(gettext("View All Transactions"), to: transaction_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
       <h2 class="card-title lg-card-title" style="color: white;"><%= gettext "Transactions" %></h2>
       <div data-selector="channel-batching-message" style="display: none;">
